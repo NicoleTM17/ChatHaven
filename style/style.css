@@ -1,0 +1,25 @@
+@import url(./components/searchbar.css);
+@import url(./components/avatar.css);
+
+.container{
+  position: relative;
+  border: 1px solid red;
+  border-radius: 6px;
+  margin-top: 5em;
+  width: 400px;
+  height: 600px;
+  /* padding: 250px; */
+}
+
+.vl{
+  position: absolute;
+  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  height: 600px;
+  top: 0;
+  left: 17.5em;
+}
+
+.contacts{
+  width: 280px !important;
+  /* border: 1px solid blue; */
+}
