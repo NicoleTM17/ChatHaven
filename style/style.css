@@ -3,7 +3,8 @@
 
 .container{
   position: relative;
-  border: 1px solid red;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 6px;
   margin-top: 5em;
   width: 400px;
@@ -13,7 +14,7 @@
 
 .vl{
   position: absolute;
-  border-left: 1px solid rgba(0, 0, 0, 0.5);
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
   height: 600px;
   top: 0;
   left: 17.5em;
@@ -22,4 +23,12 @@
 .contacts{
   width: 280px !important;
   /* border: 1px solid blue; */
+}
+
+.hz{
+  position: absolute;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 1039px;
+  top: 7em;
+  left: 17.5em;
 }

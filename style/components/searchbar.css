@@ -18,3 +18,25 @@
   border: 1px solid rgba(0, 0, 0, 0.5);
   margin-left: -4px;
 }
+
+
+.chatbar{
+  position: absolute;
+  bottom: 3em;
+  left: 20em;
+}
+
+.chat-btn{
+  padding: 8px 10px;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.5);
+  cursor: pointer;
+}
+
+.chat-bar{
+  border-radius: 5px;
+  padding: 5px 5px;
+  width: 900px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  margin-left: -2px;
+}

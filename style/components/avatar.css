@@ -64,3 +64,44 @@
 .dot-six{
   margin-bottom: 3px;
 }
+
+/* direct-messaging: */
+
+.avatar-contact-info{
+  position: relative;
+  /* border: 1px solid yellow; */
+  top: 1em;
+  width: 65em;
+}
+
+
+.direct-msg-avatar{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  top: 1em;
+  left: 2em;
+}
+
+.direct-msg-details{
+  position: absolute;
+  top: 1em;
+  left: 6em;
+}
+
+.msg-name{
+  font-size: 15px;
+}
+
+.msg-status{
+  font-size: 12px;
+  margin-top: 3px;
+  display: flex;
+}
+
+.msg-dot-on{
+  color: green;
+  font-size: 32px;
+  margin-top: -17px;
+}
