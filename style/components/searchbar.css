@@ -5,38 +5,60 @@
 }
 
 .search-btn{
-  padding: 8px 10px;
+  padding: 9px 10px;
   /* border: 1px solid black; */
   border-radius: 5px;
   background-color: rgba(128, 128, 128, 0.5);
   cursor: pointer;
 }
 
+.search-btn:hover{
+  opacity: 0.8;
+}
+
 .search-bar{
   border-radius: 5px;
   padding: 5px 5px;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  margin-left: -4px;
+  margin-left: -5px;
 }
 
 
 .chatbar{
   position: absolute;
-  bottom: 3em;
+  bottom: 2em;
   left: 20em;
 }
 
 .chat-btn{
-  padding: 8px 10px;
+  padding: 11px 11px;
   border-radius: 5px;
   background-color: rgba(128, 128, 128, 0.5);
   cursor: pointer;
 }
 
+.chat-btn:hover{
+  opacity: 0.8;
+}
+
 .chat-bar{
+  position: relative;
   border-radius: 5px;
-  padding: 5px 5px;
-  width: 900px;
+  padding: 7px 5px;
+  width: 59em;
   border: 1px solid rgba(0, 0, 0, 0.5);
-  margin-left: -2px;
+  margin-left: -4px;
+}
+
+.fa-camera{
+  position: absolute;
+  top: 0.4em;
+  right: 0.7em;
+  opacity: 0.7;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.fa-camera:hover{
+  opacity: 0.5;
 }

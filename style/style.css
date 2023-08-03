@@ -1,8 +1,10 @@
 @import url(./components/searchbar.css);
 @import url(./components/avatar.css);
+@import url(./components/messages.css);
 
 .container{
   position: relative;
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.4);
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
   border-radius: 6px;
@@ -12,10 +14,16 @@
   /* padding: 250px; */
 }
 
+body{
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://images.unsplash.com/photo-1531685250784-7569952593d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80);
+  background-size: cover;
+}
+
 .vl{
   position: absolute;
   border-left: 1px solid rgba(0, 0, 0, 0.1);
-  height: 600px;
+  /* height: 600px; */
+  height: 37.5em;
   top: 0;
   left: 17.5em;
 }
@@ -28,7 +36,24 @@
 .hz{
   position: absolute;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  width: 1039px;
+  /* width: 1039px; */
+  width: 65em;
   top: 7em;
   left: 17.5em;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+
+}
+
+
+@media (max-width: 720px) {
+
+}
+
+
+@media (max-width: 540px) {
+
 }

@@ -2,6 +2,7 @@
   position: relative;
   top: 2em;
   padding: 3em;
+  cursor: pointer;
   /* border: 1px solid green; */
 }
 
@@ -82,6 +83,7 @@
   border-radius: 50%;
   top: 1em;
   left: 2em;
+  cursor: pointer;
 }
 
 .direct-msg-details{
@@ -92,11 +94,13 @@
 
 .msg-name{
   font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
 }
 
 .msg-status{
   font-size: 12px;
-  margin-top: 3px;
+  margin-top: 7px;
   display: flex;
 }
 
@@ -104,4 +108,10 @@
   color: green;
   font-size: 32px;
   margin-top: -17px;
+}
+
+.msg-about{
+  margin-top: -6px;
+  font-size: 0.75em;
+  margin-left: 2px;
 }
