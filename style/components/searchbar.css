@@ -62,3 +62,59 @@
 .fa-camera:hover{
   opacity: 0.5;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+  .chat-bar{
+    width: 21em;
+  }
+
+  .search-bar{
+    width: 12em;
+  }
+
+  .searchbar{
+    margin-left: -3em;
+}
+
+}
+
+
+@media (max-width: 720px) {
+
+  .chat-bar{
+    width: 18em;
+  }
+
+  .search-bar{
+    width: 10em;
+  }
+}
+
+
+@media (max-width: 540px) {
+
+  .searchbar{
+    margin-left: -0.3em;
+  }
+  .search-bar{
+    width: 6em;
+    font-size: 0.75em;
+  }
+
+  .search-btn{
+    font-size: 0.75em;
+    padding: 8px 8px;
+  }
+
+  .chatbar{
+    margin-left: -12em;
+  }
+
+  .chat-bar{
+    width: 15em;
+  }
+
+}

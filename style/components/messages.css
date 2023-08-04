@@ -95,3 +95,74 @@
 .bubble-two{
   margin-top: 5.5em;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+  .my-speech-bubble{
+    width: 22em;
+    font-size: 8px;
+    margin-top: 11em;
+    margin-right: 3em;
+
+  }
+
+  .their-speech-bubble{
+    width: 22em;
+    font-size: 8px;
+    margin-top: 20em;
+    margin-left: 19em;
+  }
+
+  .bubble-two{
+    margin-top: 32em;
+  }
+}
+
+
+@media (max-width: 720px) {
+
+}
+
+
+@media (max-width: 540px) {
+
+  .my-speech-bubble{
+    padding: 15px 12px;
+    font-size: 10px;
+    width: 25em;
+    margin-top: 5em;
+  }
+
+  .my-avatar-img{
+    width: 20px;
+    height: 20px;
+  }
+
+  .day-time{
+    font-size: 0.5em;
+  }
+
+  .their-avatar-date{
+    margin-left: -11em;
+
+  }
+
+  .their-speech-bubble{
+  padding: 15px 12px;
+  font-size: 10px;
+  width: 25em;
+  margin-top: 10em;
+  margin-left: -5em;
+}
+
+  .bubble-two{
+    margin-top: 19em;
+  }
+
+  .their-avatar-img{
+    width: 20px;
+    height: 20px;
+  }
+}

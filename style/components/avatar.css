@@ -115,3 +115,52 @@
   font-size: 0.75em;
   margin-left: 2px;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 960px) {
+
+  .contact-card{
+    padding: 2.5em;
+  }
+
+  .avatar-contact-info{
+    left: 7em;
+  }
+
+}
+
+
+@media (max-width: 720px) {
+
+}
+
+
+@media (max-width: 540px) {
+
+  .contact-card{
+    padding: 2.5em;
+    width: 7em;
+  }
+
+  .avatar-contact-info{
+    top: -28em;
+    left: 6em;
+  }
+
+  .avatar{
+    width: 30px;
+    height: 30px;
+    margin-left: -1em;
+  }
+
+  .avatar-name{
+    font-size: 8.5px;
+    margin-left: 7em;
+  }
+  .avatar-status{
+    font-size: 8px;
+    margin-left: 3em;
+  }
+}
